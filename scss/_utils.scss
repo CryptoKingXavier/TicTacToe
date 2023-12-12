@@ -1,0 +1,16 @@
+@import 'config';
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 3px 4px 10px 3px $container-color;
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: repeat(1fr, 3);
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+    color: $secondary-color;
+}

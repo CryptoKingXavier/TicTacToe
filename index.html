@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TicTacToe</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="./dist/main.js" defer></script>
+        <script src="./dist/modal.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="hero">Noughts & Crosses</h1>
+
+            <button data-open-modal id="modalToggle">OpenModal</button>
+
+            <dialog data-modal>
+                <h3>TicTacToe Web Game</h3>
+                <h6 data-modal-message>Click on the tiles to play!</h6>
+                <button data-close-modal>Close</button>
+            </dialog>
+
+        </header>
+        <main class="container">
+            <div class="row-1">
+                <span class="row" id="r1-c1">*</span>
+                <span class="row" id="r1-c2">*</span>
+                <span class="row" id="r1-c3">*</span>
+            </div>
+            <div class="row-2">
+                <span class="row" id="r2-c1">*</span>
+                <span class="row" id="r2-c2">*</span>
+                <span class="row" id="r2-c3">*</span>
+            </div>
+            <div class="row-3">
+                <span class="row" id="r3-c1">*</span>
+                <span class="row" id="r3-c2">*</span>
+                <span class="row" id="r3-c3">*</span>
+            </div>
+        </main>
+    </body>
+
+</html>
