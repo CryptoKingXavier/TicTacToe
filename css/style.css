@@ -32,7 +32,7 @@
 }
 @media screen and (width <= 1000px) {
   .container {
-    width: 75%;
+    width: 90%;
   }
 }
 * {
@@ -120,7 +120,7 @@ header dialog::backdrop {
 .row-1 .row:hover,
 .row-2 .row:hover,
 .row-3 .row:hover {
-  transform: rotate3d(1, 1, 1, 20deg);
+  transform: rotate3d(1, 1, 1, 10deg);
 }
 
 /*# sourceMappingURL=style.css.map */
